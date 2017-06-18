@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoBox", "CryptoBox\CryptoBox.csproj", "{090D48C2-FB4C-4363-BD62-4D8C2C8A487E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoBoxTestApp", "CryptoBoxTestApp\CryptoBoxTestApp.csproj", "{0626E128-F0AE-4711-8439-5349ED40365F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoBoxTest", "CryptoBoxTest\CryptoBoxTest.csproj", "{F106C114-F01E-41DA-9CB7-84E712438542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{090D48C2-FB4C-4363-BD62-4D8C2C8A487E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090D48C2-FB4C-4363-BD62-4D8C2C8A487E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090D48C2-FB4C-4363-BD62-4D8C2C8A487E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090D48C2-FB4C-4363-BD62-4D8C2C8A487E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0626E128-F0AE-4711-8439-5349ED40365F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0626E128-F0AE-4711-8439-5349ED40365F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0626E128-F0AE-4711-8439-5349ED40365F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0626E128-F0AE-4711-8439-5349ED40365F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F106C114-F01E-41DA-9CB7-84E712438542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F106C114-F01E-41DA-9CB7-84E712438542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F106C114-F01E-41DA-9CB7-84E712438542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F106C114-F01E-41DA-9CB7-84E712438542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
