@@ -28,5 +28,15 @@ namespace CryptoBoxTest
 
 			Assert.AreEqual(WordResult.IsNotWord, result);
 		}
+
+		[TestMethod]
+		public async Task SpecicalCharactersAreNotTreatedAsWords()
+		{
+			var a = new JsonFileWordChecker();
+
+			var result = await a.CheckWord("pass-word");
+
+			Assert.AreEqual(WordResult.IsNotWord, result);
+		}
 	}
 }
